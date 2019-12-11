@@ -1,0 +1,34 @@
+.dia {
+  background-color: azure;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dia-numero {
+  width: 50px;
+}
+
+.contenedor-letras-dias {
+  display: grid;
+  grid-template-columns: repeat(7, 50px);
+}
+.dias {
+  display: grid;
+  grid-template-columns: repeat(7, 50px);
+}
+.dia-numero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selecionado {
+  background-color: red;
+}
+
+.actual {
+  background-color: hsla(180, 100%, 97%, 100%);
+  border-radius: 16px;
+}
